@@ -1,9 +1,9 @@
 package fr.wykt.vertine;
 
 import fr.wykt.vertine.eventbus.EventBus;
-import fr.wykt.vertine.eventbus.IHandler;
-import fr.wykt.vertine.eventbus.Listener;
-import fr.wykt.vertine.eventbus.SubscribeEvent;
+import fr.wykt.vertine.eventbus.interfaces.IHandler;
+import fr.wykt.vertine.eventbus.interfaces.Listener;
+import fr.wykt.vertine.eventbus.interfaces.SubscribeEvent;
 import fr.wykt.vertine.eventbus.impl.PlayerKeyEvent;
 import fr.wykt.vertine.feature.module.AbstractModule;
 import fr.wykt.vertine.management.impl.HookManager;

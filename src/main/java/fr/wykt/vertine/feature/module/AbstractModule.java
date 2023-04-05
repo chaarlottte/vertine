@@ -1,6 +1,6 @@
 package fr.wykt.vertine.feature.module;
 
-import fr.wykt.vertine.eventbus.IHandler;
+import fr.wykt.vertine.eventbus.interfaces.IHandler;
 import fr.wykt.vertine.feature.module.enums.ModuleCategory;
 import fr.wykt.vertine.feature.module.interfaces.ModuleInfo;
 import fr.wykt.vertine.utils.IMinecraft;

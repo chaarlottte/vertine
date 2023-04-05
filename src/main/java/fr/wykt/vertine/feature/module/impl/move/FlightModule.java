@@ -1,7 +1,7 @@
 package fr.wykt.vertine.feature.module.impl.move;
 
-import fr.wykt.vertine.eventbus.Listener;
-import fr.wykt.vertine.eventbus.SubscribeEvent;
+import fr.wykt.vertine.eventbus.interfaces.Listener;
+import fr.wykt.vertine.eventbus.interfaces.SubscribeEvent;
 import fr.wykt.vertine.eventbus.impl.PlayerUpdateEvent;
 import fr.wykt.vertine.feature.module.AbstractModule;
 import fr.wykt.vertine.feature.module.enums.ModuleCategory;

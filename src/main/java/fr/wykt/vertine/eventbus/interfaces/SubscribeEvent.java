@@ -1,4 +1,4 @@
-package fr.wykt.vertine.eventbus;
+package fr.wykt.vertine.eventbus.interfaces;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

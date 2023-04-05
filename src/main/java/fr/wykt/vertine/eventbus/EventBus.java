@@ -1,5 +1,9 @@
 package fr.wykt.vertine.eventbus;
 
+import fr.wykt.vertine.eventbus.interfaces.IHandler;
+import fr.wykt.vertine.eventbus.interfaces.Listener;
+import fr.wykt.vertine.eventbus.interfaces.SubscribeEvent;
+
 import java.lang.reflect.Field;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
